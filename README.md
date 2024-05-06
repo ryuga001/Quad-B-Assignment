@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# Todo Application 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a todo application ( React + vite + typescript ).
 
-Currently, two official plugins are available:
+## Features
+- TypeScript used for type safety.
+- State management with Redux Toolkit and React-Redux.
+- Implemented Persistence Storage with Local Storage.
+- Responsive UI design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- TypeScript
+- React 
+- Redux Toolkit
+- React-Redux
+- HTML
+- SASS for CSS 
 
-## Expanding the ESLint configuration
+## Installation
+1. Clone the repository: `git clone https://github.com/ryuga001/Quad-B-Assignment.git`
+2. Install dependencies: `npm install` or `yarn`
+3. To start the development server: `npm run dev` or `yarn dev`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Images 
+Laptop 
+![Screenshot 2024-05-06 175234](https://github.com/ryuga001/Quad-B-Assignment/assets/127576851/01b43e91-790d-4b70-841b-457be3286ed6)
 
-- Configure the top-level `parserOptions` property like this:
+Tablet 
+![Screenshot 2024-05-06 180308](https://github.com/ryuga001/Quad-B-Assignment/assets/127576851/a36bafbe-26ea-40a9-bbbc-51a3bd77c4ee)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Mobile 
+![Screenshot 2024-05-06 180255](https://github.com/ryuga001/Quad-B-Assignment/assets/127576851/8d049ea0-9e29-4f1f-9287-2f8ea9b493af)
